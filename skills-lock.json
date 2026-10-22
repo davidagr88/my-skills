@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "cross-critique": {
+      "source": "warpdotdev/common-skills",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/cross-critique/SKILL.md",
+      "computedHash": "eba85912da3e1fba5e698aed0932de110deb9ef8af71ba8bdd7161cba97c8471"
+    }
+  }
+}
