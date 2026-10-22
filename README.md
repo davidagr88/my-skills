@@ -20,11 +20,24 @@ Commit this as `.claude/settings.json` in the project (merge it if the file alre
   },
   "enabledPlugins": {
     "my-skills@my-skills": true
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ \"$CLAUDE_CODE_REMOTE\" = \"true\" ]; then (claude plugin marketplace add davidagr88/my-skills && claude plugin install my-skills@my-skills) >/dev/null 2>&1; fi; true",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
   }
 }
 ```
 
-Every session on that project, including cloud sessions, then loads the skills. Changes pushed here reach every project.
+Every session on that project then loads the skills. Changes pushed here reach every project. Cloud sessions don't install plugins from these settings on their own, so the `SessionStart` hook installs the plugin there; local sessions ask to trust the marketplace the first time.
 
 To install it by hand instead:
 
