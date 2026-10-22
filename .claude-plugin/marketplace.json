@@ -1,0 +1,11 @@
+{
+  "name": "my-skills",
+  "owner": { "name": "davidagr88" },
+  "plugins": [
+    {
+      "name": "my-skills",
+      "source": "./",
+      "description": "David's personal Claude Code skills."
+    }
+  ]
+}
