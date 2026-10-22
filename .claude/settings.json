@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "my-skills": {
+      "source": { "source": "github", "repo": "davidagr88/my-skills" }
+    }
+  },
+  "enabledPlugins": {
+    "my-skills@my-skills": true
+  }
+}
