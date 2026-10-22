@@ -6,7 +6,7 @@ My Claude Code skills, in one place, packaged as a Claude Code plugin.
 - Skills live in `skills/<skill-name>/SKILL.md`.
 - The repo is both a plugin (`.claude-plugin/plugin.json`) and a marketplace (`.claude-plugin/marketplace.json`).
 - Skills run with a `my-skills:` prefix, for example `/my-skills:ui-ux-pro-max`, or just ask for the task and Claude picks the right skill.
-- The repo is private, so only sessions with access to it can install the plugin.
+- The repo is public, so any session can install the plugin, including cloud sessions on other repos. Keep secrets out of it.
 
 ## Use these skills in a project
 Commit this as `.claude/settings.json` in the project (merge it if the file already exists):
