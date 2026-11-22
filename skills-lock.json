@@ -45,6 +45,18 @@
       "skillPath": "skills/modern-web-guidance/SKILL.md",
       "computedHash": "9e69ce00dc314b64f6664031b70295ea46c7de93ac682c624808df6e48e08b66",
       "localChanges": "npx calls pinned from @latest to @1.0.0"
+    },
+    "domain-modeling": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/domain-modeling/SKILL.md",
+      "computedHash": "b78689833404148c769077355e12dbe5ad996a158a1e21e58ddf169e439d9d8c"
+    },
+    "grill-with-docs": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/grill-with-docs/SKILL.md",
+      "computedHash": "02e258f41d210f9b2e7cce9faf62b3c59e8fcebe5d2736369c3cd07d471324f8"
     }
   }
 }
